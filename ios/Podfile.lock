@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - sorisdk_flutter (0.2.3):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - sorisdk_flutter (from `.symlinks/plugins/sorisdk_flutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  sorisdk_flutter:
+    :path: ".symlinks/plugins/sorisdk_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  sorisdk_flutter: 62de03340dc6ea565830d2977fdb53637d1307ac
+
+PODFILE CHECKSUM: f8c2dcdfb50bb67645580d28a6bf814fca30bdec
+
+COCOAPODS: 1.16.2
