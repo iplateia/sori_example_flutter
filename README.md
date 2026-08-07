@@ -11,7 +11,11 @@ recognition events and render recognized campaigns as cards.
 - SORI `app_id` and `secret_key` from SORI Console
 
 Do not commit real SORI credentials. This example reads them from
-`--dart-define` values.
+`--dart-define` values, which avoids source-control disclosure but still compiles
+the values into the app. Do not treat build-time injection or code obfuscation
+as perfect protection from binary extraction. Before distributing a production
+app, apply application-specific protection and credential-rotation controls
+appropriate to your threat model.
 
 ## Setup
 
