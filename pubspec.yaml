@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sorisdk_flutter: ^0.2.3
+  sorisdk_flutter: ^0.3.5
 
 dev_dependencies:
   flutter_test:

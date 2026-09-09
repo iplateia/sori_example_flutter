@@ -89,9 +89,10 @@ class _RecognitionHomeState extends State<RecognitionHome> {
         _message = null;
       }
 
-      if (event.audioMarker != null ||
-          event.type == SORIRecognitionEventType.audioMarkerChanged) {
-        _marker = event.audioMarker;
+      final markerName = event.audioMarkerIdentity?.name;
+      if (markerName != null ||
+          event.type == SORIRecognitionEventType.audioMarkerFound) {
+        _marker = markerName;
       }
 
       if (event.type == SORIRecognitionEventType.error ||
