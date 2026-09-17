@@ -6,9 +6,15 @@ recognition events and render recognized campaigns as cards.
 ## Requirements
 
 - Flutter 3.3.0 or later
+- Android Studio with its bundled JDK 25 runtime
 - Android API level 24 or later
 - iOS 13.0 or later
 - SORI `app_id` and `secret_key` from SORI Console
+
+Keep Flutter's JDK override unset so Flutter and Gradle use Android Studio's
+bundled JDK. The project-local Gradle daemon criteria select Java 25 without a
+machine-specific installation path. The Java and Kotlin 17 settings under
+`android/` are bytecode compatibility targets, not a JDK runtime requirement.
 
 Do not commit real SORI credentials. This example reads them from
 `--dart-define` values, which avoids source-control disclosure but still compiles
