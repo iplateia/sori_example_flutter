@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - sorisdk_flutter (0.5.0):
+  - sorisdk_flutter (0.5.1):
     - Flutter
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  sorisdk_flutter: c8ae2292f100cb6e8b421cfdf3410ae931938373
+  sorisdk_flutter: 0b44090f7182e804ff3e6237e8c45091ca870ded
 
 PODFILE CHECKSUM: f8c2dcdfb50bb67645580d28a6bf814fca30bdec
 
