@@ -153,10 +153,10 @@ packages:
     dependency: "direct main"
     description:
       name: sorisdk_flutter
-      sha256: "11d5217fa51622e862180060caaf70e8cd07086fa3a74b425f6e97b28bbc0fc4"
+      sha256: "901530b4f83cdb66f8186bc9867f5dfe2e3895cd8a3385e508d92b5366e4dee4"
       url: "https://pub.dev"
     source: hosted
-    version: "0.4.0"
+    version: "0.5.0"
   source_span:
     dependency: transitive
     description:
